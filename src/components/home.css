@@ -1,0 +1,107 @@
+.menu {
+  position: fixed;
+  z-index: 89;
+  right: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 2.5vw;
+  top: 20px;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  color: #000;
+  font-family: "Playfair Display", times, serif;
+}
+
+a {
+  transition: 0.3s all ease;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
+.subtitle {
+  line-height: 1.8;
+  color: #b3b3b3;
+  font-size: 4vw;
+  font-weight: 300;
+  margin: 0;
+}
+
+p {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.social > li > a {
+  color: #f73859;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 2vw;
+}
+
+.social {
+  display: flex;
+  gap: 5vw;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    height: 70vw;
+    width: 100vw;
+  }
+
+  .intro {
+    padding: 5vw;
+  }
+
+  .name {
+    font-size: 7vw;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .paragraph {
+    color: #b3b3b3;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .introduction {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+
+  .profile {
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .intro {
+    padding: 3vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 45vw;
+  }
+
+  .name {
+    font-size: 5vw;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .paragraph {
+    color: #b3b3b3;
+    font-size: 2vw;
+  }
+}
