@@ -94,7 +94,7 @@ const Projects = () => {
                 React Redux travellers' hub
               </span>
               <div className="pt-8 text-center">
-                <a href="https://kinginthenorthcodez.github.io/dragons">
+                <a href="https://kinginthenorthcodez.github.io/space-travellers-hub/">
                   <button className="text-lg bg-white rounded-lg text-gray-700 font-bold px-4 py-3 mx-2 ">
                     Demo
                   </button>
