@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import logo from "../assets/1.png";
-import { FaAddressCard, FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
-import { SiGmail } from 'react-icons/si'
+import {
+  FaAddressCard,
+  FaBars,
+  FaGithub,
+  FaLinkedin,
+  FaTimes,
+} from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [popUp, setPopUp] = useState(false);
@@ -12,11 +19,21 @@ const Navbar = () => {
         <img src={logo} alt="logo" style={{ width: "60px" }} />
       </div>
       <ul className="hidden md:flex  ">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/skills">Skills</Link>
+        </li>
+        <li>
+          <Link to="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
       {/* burger icon */}
       <div className=" md:hidden z-10 cursor-pointer" onClick={clickHandler}>
@@ -30,11 +47,21 @@ const Navbar = () => {
             : "absolute top-0 left-0 bg-[#0a192f] w-full h-screen flex flex-col justify-center items-center md:hidden"
         }
       >
-        <li className="py-10 text-4xl">Home</li>
-        <li className="py-10 text-4xl">About</li>
-        <li className="py-10 text-4xl">Skills</li>
-        <li className="py-10 text-4xl">Projects</li>
-        <li className="py-10 text-4xl">Contact</li>
+        <li className="py-10 text-4xl">
+          <Link onClick={clickHandler} to="/">Home</Link>
+        </li>
+        <li className="py-10 text-4xl">
+          <Link onClick={clickHandler} to="/about">About</Link>
+        </li>
+        <li className="py-10 text-4xl">
+          <Link onClick={clickHandler} to="/skills">Skills</Link>
+        </li>
+        <li className="py-10 text-4xl">
+          <Link onClick={clickHandler} to="/projects">Projects</Link>
+        </li>
+        <li className="py-10 text-4xl">
+          <Link onClick={clickHandler} to="/contact">Contact</Link>
+        </li>
       </ul>
       <div className="hidden md:flex flex-col fixed left-0 top-[35%]">
         <ul>

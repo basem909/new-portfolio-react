@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-fit bg-[#0a192f] text-gray-300 pl-12 py-5 flex justify-center items-center"
+      className="w-full h-full bg-[#0a192f] text-gray-300 pl-12 py-32 flex justify-center items-center"
     >
       <form
         action="https://getform.io/f/21505d27-cdd4-4a89-9a27-954f270d40cb"
@@ -22,7 +22,7 @@ const Contact = () => {
         <input
           type="text"
           name="name"
-          className="bg-[#ccd6f6] p-2 w-full"
+          className="bg-[#ccd6f6] p-2 w-[70vw] sm:w-full"
           placeholder="Name..."
           required
         ></input>
@@ -30,18 +30,18 @@ const Contact = () => {
         <input
           type="email"
           name="email"
-          className="bg-[#ccd6f6] my-2 p-2 w-full"
+          className="bg-[#ccd6f6] my-2 p-2 w-[70vw] sm:w-full"
           placeholder="E-mail..."
           required
         ></input>
         <textarea
-          className="bg-[#ccd6f6] my-2 p-2 w-full text-black"
+          className="bg-[#ccd6f6] my-2 p-2 w-[70vw] sm:w-full text-black"
           rows={10}
           name="message"
           placeholder="Message..."
           required
         ></textarea>
-        <button className="text-white px-6 border-2 py-3 my-3 flex justify-center items-center hover:bg-pink-600 hover:border-pink-600 rounded-md hover:transition-shadow duration-300 w-[20vw]">
+        <button className="text-white text-[1.3vw] whitespace-nowrap px-6 border-2 py-3 my-3 flex justify-center items-center hover:bg-pink-600 hover:border-pink-600 rounded-md hover:transition-shadow duration-300 w-[20vw] max-w-[200px]">
           Let's collaborate
         </button>
       </form>
