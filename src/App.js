@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import Home from "./components/Home.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Projects from "./components/Projects.jsx";
+import Skills from "./components/Skills.jsx";
 
 function App() {
   return (
