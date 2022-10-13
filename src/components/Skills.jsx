@@ -20,35 +20,35 @@ const Skills = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={html} className="w-20 mx-auto" />
+            <img src={html} alt='HTML' className="w-20 mx-auto" />
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={css} className="w-20 mx-auto pt-7" />
+            <img src={css} alt='CSS' className="w-20 mx-auto pt-7" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={js} className="w-20 mx-auto pt-7" />
+            <img src={js} alt='JavaScript' className="w-20 mx-auto pt-7" />
             <p className="my-4">JavaScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={git} className="w-[17vw] mx-auto pt-7" />
+            <img src={git} alt='GIT' className="w-[17vw] mx-auto pt-7" />
             <p className="my-4">Git Cli</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={react} className="w-20 mx-auto pt-7" />
+            <img src={react} alt='React' className="w-20 mx-auto pt-7" />
             <p className="my-4">React and Redux</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={ruby} className="w-20 mx-auto pt-7" />
+            <img src={ruby} alt='Ruby' className="w-20 mx-auto pt-7" />
             <p className="my-4">Ruby</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={rails} className="w-[18vw] mx-auto pt-7" />
+            <img src={rails} alt='Rails' className="w-[18vw] mx-auto pt-7" />
             <p className="my-4">Rails</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-around">
-            <img src={postgresql} className="w-20 mx-auto pt-7" />
+            <img src={postgresql} alt='Postgresql' className="w-20 mx-auto pt-7" />
             <p className="my-4">Postgresql</p>
           </div>
         </div>
