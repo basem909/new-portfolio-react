@@ -18,7 +18,7 @@ const home = () => {
           not hesitate and contact me.
         </p>
         <div>
-          <Link href='/contact' className='text-white px-6 border-2 py-3 my-3 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-md hover:transition-shadow duration-300 max-w-[200px]'>Start collaboration</Link>
+          <Link to='/contact' className='text-white px-6 border-2 py-3 my-3 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-md hover:transition-shadow duration-300 max-w-[200px]'>Start collaboration</Link>
         </div>
       </div>
     </div>
