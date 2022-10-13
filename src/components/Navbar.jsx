@@ -57,7 +57,7 @@ const Navbar = () => {
           <li className="rounded-md w-[160px] h-[60px] flex justify-between items-center bg-red-500 ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="w-full text-white flex justify-between items-center"
-              href="Basemshams30@gmail.com"
+              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMScbVfqBWrznqZXmqBlGGLPMDGwnwLwRJThvjptmwjFzVQlDBzlwMSHMRNBWVWDlchNTTn"
             >
               Email <SiGmail size={25} />
             </a>
