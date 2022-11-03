@@ -5,12 +5,14 @@ import Contact from "./components/Contact";
 import Home from "./components/home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import RouteChangeTracker from "./components/RouteChangeTracker";
 import Skills from "./components/Skills";
+import ReactGA from "react-ga";
+const TRACKING_ID = "G-LJT3M5XYXL";
+ReactGA.initialize(TRACKING_ID)
+
 
 function App() {
   return (
-    <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -21,9 +23,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-
-      <RouteChangeTracker />
-    </div>
   );
 }
 

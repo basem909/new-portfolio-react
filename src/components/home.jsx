@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import ReactGA from "react-ga";
+
 
 const home = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <div name="" className="w-full h-screen bg-[#0a192f] pl-10">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col h-full justify-center">
