@@ -25,7 +25,7 @@ const Projects = () => {
             className="shadow-lg shadow-[#040a61] container group rounded-md flex justify-center items-center mx-auto project-card"
           >
             <div className=" opacity-0 group-hover:opacity-100">
-              <span className="text-2xl text-white font-bold tracking-wider flex items-center sm:text-lg">
+              <span className="text-2xl px-5 text-white font-bold tracking-wider flex items-center sm:text-lg">
                 Rails full-stack project Property exhibit
               </span>
               <div className="pt-8 text-center">
