@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import ReactGA from "react-ga";
-const TRACKING_ID = "G-LJT3M5XYXL";
+const TRACKING_ID = "G-8YXYL5PR4G";
 ReactGA.initialize(TRACKING_ID)
 
 
