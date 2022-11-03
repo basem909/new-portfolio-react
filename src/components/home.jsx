@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import ReactGA from "react-ga";
 
 
-const home = () => {
+const Home = () => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname)
   }, [])
@@ -30,4 +30,4 @@ const home = () => {
   );
 }
 
-export default home
+export default Home
